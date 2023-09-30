@@ -1,0 +1,182 @@
+body {
+    background-color: #3c3d66;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+
+
+.container{
+    background: linear-gradient(red, orange);
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+
+.header{
+	margin: 20px 215px;
+	position: absolute;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    border-top:solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    border-left: solid 1px #fff;
+    border-right: solid 1px #fff;
+    height: 140px;
+   
+}
+
+.article{
+	top: 163px;
+	left:215px;
+	position: absolute;
+	width: 70%;
+    display: flex;
+    justify-content: space-between;
+    border-top:solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    border-left: solid 1px #fff;
+    border-right: solid 1px #fff;
+    height: 557px;
+ 
+}
+.t1{
+	top:30px;
+	left:600px;
+	position: absolute;
+	color:#fff;
+	font-size:250%;
+}
+ 
+.vvod1{
+	top:160px;
+	left:290px;
+	position: absolute;
+	font-size:150%;
+}
+
+.vvod2{
+	top:200px;
+	left:290px;
+	position: absolute;
+	font-size:150%;
+    background-color: white;
+}
+
+.vvod3{
+	top:240px;
+	left:290px;
+	position: absolute;
+	font-size:150%;
+}
+
+.vvod4{
+	top:280px;
+	left:290px;
+	position: absolute;
+	font-size:150%;
+}
+
+
+ .nazv1{
+    font-size: 25px;
+    top: 130px;
+    left: 55px;
+    position: absolute;
+ }
+
+ .nazv2{
+    font-size: 25px;
+    top: 170px;
+    left: 55px;
+    position: absolute;
+ }  
+
+ .nazv3{
+    font-size: 25px;
+    top: 210px;
+    left: 55px;
+    position: absolute;
+ }
+
+ .nazv4{
+    font-size: 25px;
+    top: 250px;
+    left: 55px;
+    position: absolute;
+ }
+
+ button{
+    background: linear-gradient(red, orange);
+  background-color: white;
+  border: red;
+  border-radius: 20px;
+  margin-top: 20px;
+  height: 30px;
+  width: 200px;
+  
+   
+ }
+
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+ .b1{
+    color: white;
+    font-size: 15px;
+    
+ }
+
+ .tbl{
+	top:400px;
+	left:400px;
+	position: absolute;
+}
+
+td, th {
+color:#fff;;
+padding: 3px;
+/* border: 1px solid #fff;
+border-top-width: 2px;
+border-right-width: 2px;
+border-bottom-width: 2px;
+border-left-width: 2px;
+transition: 0.2s; */
+}
+
+tbody td:hover {
+background: #333;
+color: #fff;
+}
+
+.tbl{
+	top:400px;
+	left:300px;
+	position: absolute;
+}
+
+table{
+   
+    background: linear-gradient(red, orange);
+	background-color: #303030;
+}
+
+.nazv5{
+    font-size: 25px;
+    top: 290px;
+    left: 55px;
+    position: absolute;
+}
+
+.vvod5{
+    top:315px;
+	left:290px;
+	position: absolute;
+	font-size:150%;
+}

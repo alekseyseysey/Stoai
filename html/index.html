@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <form>
+<div class="container">
+    <div class="header"></div> <p class="t1"> Введите данные</p>
+    <div class="article">
+    <p class="nazv1">Введите ID:</p> <input class="vvod1" type="text" size="40" id="id" placeholder="ID">
+    <p class="nazv2">Введите ФИО:</p> <input class="vvod2" size="40" type="text" id="fio" placeholder="ФИО">
+    <p class="nazv3">Введите Телефон:</p><input class="vvod3" type="tel"  size="40" id="tel" placeholder="Телефон">
+    <p class="nazv4">Введите адрес:</p><input class="vvod4" type="text" size="40" id="ad" placeholder="Адрес">
+
+    
+    <div class="nazv5" id="txtFld"></div>
+    <div class="vvod5" id="txtFld2"></div>
+
+    <button type="button" id="btn0" class="button"><div class="b1"><strong>Добавить запись</strong></div></button>
+    <button type="button" id="btn1" class="button"><div class="b1"><strong>Очистить форму</strong></div></button>
+    <button type="button" id="btn2" class="button"><div class="b1"><strong>Удалить по ID</strong></div></button>
+    <button type="button" id="btn3" class="button"><div class="b1"><strong>Показать все записи</strong></div></button>
+    <button type="button" id="btn4" class="button"><div class="b1"><strong>Все задолженности</strong></div></button>
+    <button type="button" id="btn5" class="button"><div class="b1"><strong>Адрес компании</strong></div></button>
+    
+
+    <table id="elem" class="tbl"cellspacing="0" width="45%" >
+        <tbody>
+            <tr>
+            <td><span id="title1">
+            <font  size="1"><strong>ID</strong></font>
+            </span>
+            </td>
+            <td ><span id="title2">
+            <font size="1"><strong>ФИО</strong></font>
+            </span>
+            </td>
+            <td>
+            <font size="1"><strong>Телефон</strong></font>
+            </td>
+            <td>
+            <font size="1"><strong>Адрес</strong></font>
+            </td>
+            <td> 
+                <font size="1"><strong>Адрес компании</strong></font>
+            </td>
+            </tr>
+        </tbody>
+    </table>    
+   
+</div>
+</div>
+<script src="../js/index.js"></script>
+</form>
+</body>
+</html>
